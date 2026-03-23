@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background-color: #f8fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.finance-card {
+    background: 	#F0E68C;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 380px;
+    border-top: 6px solid 	#FFD700;
+}
+
+h2 { color: #1e293b; margin-bottom: 0.5rem; text-align: center; }
+.subtitle { color: #64748b; font-size: 0.875rem; text-align: center; margin-bottom: 1.5rem; }
+
+.form-group { margin-bottom: 1.25rem; }
+
+label { display: block; font-weight: 600; font-size: 0.875rem; color: #475569; margin-bottom: 0.5rem; }
+
+input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+
+input:focus { outline: none; border-color: #6366f1; ring: 2px solid #e0e7ff; }
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: 	#5F9EA0;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover { background-color: 	#20B2AA; }
+
+#resultadoArea {
+    margin-top: 1.5rem;
+    padding: 1.25rem;
+    background-color: #f1f5f9;
+    border-radius: 8px;
+    display: none;
+}
+
+.res-line { display: flex; justify-content: space-between; margin-bottom: 0.5rem; color: #475569; }
+
+.lucro-destaque { 
+    border-top: 1px solid #cbd5e1; 
+    margin-top: 0.75rem; 
+    padding-top: 0.75rem; 
+    font-weight: 700; 
+    font-size: 1.1rem; 
+}
+
+.status-positivo { color: #16a34a; }
+.status-negativo { color: #dc2626; }

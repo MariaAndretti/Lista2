@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f5f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.travel-card {
+    background: 	#9370DB;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    width: 100%;
+    max-width: 400px;
+    border-top: 6px solid #8A2BE2; 
+}
+
+h2 { color: #1C1C1C; text-align: center; margin-bottom: 5px; }
+p.subtitle { text-align: center; color: #1C1C1C; font-size: 0.9rem; margin-bottom: 25px; }
+
+.form-group { margin-bottom: 15px; }
+
+label { display: block; font-weight: 600; margin-bottom: 5px; color: #1C1C1C; font-size: 0.9rem; }
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+input:focus { outline: none; border-color: #8A2BE2; }
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #8A2BE2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 10px;
+}
+
+button:hover { background-color: #9932CC; }
+
+#resultadoViagem {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #f8fafc;
+    border-radius: 12px;
+    display: none;
+    border: 1px solid #e2e8f0;
+}
+
+.res-line { display: flex; justify-content: space-between; margin-bottom: 8px; color: #475569; font-size: 0.95rem; }
+.highlight-line { 
+    border-top: 2px solid #e2e8f0; 
+    margin-top: 12px; 
+    padding-top: 12px; 
+    font-weight: 800; 
+    color: #1C1C1C; 
+}
+.round-trip { color: #4B0082; font-size: 1.1rem; }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise de Lucro</title>
+   <link rel="stylesheet" href="perfumaria.css">
+</head>
+<body>
+
+    <div class="finance-card">
+        <h2>Gestão de Vendas</h2>
+        
+        <div class="form-group">
+            <label for="custo">Custo de Aquisição (R$):</label>
+            <input type="number" id="custo" placeholder="0.00" step="0.01">
+        </div>
+
+        <div class="form-group">
+            <label for="venda">Preço de Venda (R$):</label>
+            <input type="number" id="venda" placeholder="0.00" step="0.01">
+        </div>
+
+        <button id="btnCalcular">Analisar Resultado</button>
+
+        <div id="resultadoArea">
+            <div class="res-line"><span>Custo:</span> <span id="outCusto"></span></div>
+            <div class="res-line"><span>Venda:</span> <span id="outVenda"></span></div>
+            <div class="res-line lucro-destaque">
+                <span id="labelResultado">Lucro:</span> 
+                <span id="outLucro"></span>
+            </div>
+            <div class="res-line">
+                <span>Margem de Lucro:</span> 
+                <span id="outMargem"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="lucro.js"></script>
+</body>
+</html>

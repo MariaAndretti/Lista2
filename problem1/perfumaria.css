@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.discount-card {
+    background:#FFC0CB;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 380px;
+}
+
+h2 { 
+    color: #1C1C1C; 
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+
+.form-group { 
+    margin-bottom: 15px; 
+}
+
+label { 
+    display: block; 
+    font-weight: 600; 
+    margin-bottom: 5px; 
+    color: #363636; 
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: 	#F08080;
+    color: #363636;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover { 
+    background-color: #F08080; 
+}
+
+#resultadoArea {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #FFE4E1;
+    border-radius: 8px;
+    display: none;
+    border-left: 5px solid #F08080;
+}
+
+.res-item { 
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 8px; 
+    color: #363636; 
+}
+
+.final-price { 
+    font-weight: 800; 
+    font-size: 1.2rem; 
+    color: #363636; 
+    border-top: 1px solid #F08080; 
+    padding-top: 8px; 
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Rentabilidade</title>
+    <link rel="stylesheet" href="perfumaria.css">
+</head>
+<body>
+
+    <div class="invest-card">
+        <h2>Rentabilidade</h2>
+       
+        
+        <div class="group">
+            <label>Valor Inicial (R$)</label>
+            <input type="number" id="vInicial" placeholder="Ex: 1000.00">
+        </div>
+
+        <div class="group">
+            <label>Valor Atual (R$)</label>
+            <input type="number" id="vAtual" placeholder="Ex: 1200.00">
+        </div>
+
+        <div class="group">
+            <label>Tempo (Meses - Opcional)</label>
+            <input type="number" id="tempo" placeholder="Ex: 12">
+        </div>
+
+        <button onclick="uiCalcular()">Calcular Retorno</button>
+
+        <div id="results">
+            <div class="res-line"><span>Lucro Obtido:</span> <span id="outLucro"></span></div>
+            <div class="res-line"><span>Rentabilidade:</span> <span id="outRent" class="highlight"></span></div>
+            <div id="areaAnual" style="display: none;">
+                <div class="res-line"><span>Rentabilidade Anual:</span> <span id="outAnual" class="highlight"></span></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="investimento.js"></script>
+</body>
+</html>
